@@ -1,5 +1,5 @@
-for i in range(1,6):
-    if i==4:
-        break
-    print(i)
-    print("loop ended")
+count = 0 
+while count<5 :
+    if count == 8 :
+        continue
+    print (count)
